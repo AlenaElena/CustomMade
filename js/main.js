@@ -455,22 +455,22 @@ const unitSwiper = new Swiper(".unitSwiper", {
 });
 const multipleSwiper = new Swiper(".multipleSwiper", {
   slidesPerView: 4,
-  // breakpoints: {
-  //   1230: {
-  //     slidesPerView: 4,
-  //   },
-  //   1050: {
-  //     slidesPerView: 3,
-  //   },
-  //   650: {
-  //     slidesPerView: 2,
-  //   },
-  //   320: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 0,
+  breakpoints: {
+    1230: {
+      slidesPerView: 4,
+    },
+    1050: {
+      slidesPerView: 3,
+    },
+    650: {
+      slidesPerView: 2,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0,
       
-  //   },
-  // },
+    },
+  },
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
