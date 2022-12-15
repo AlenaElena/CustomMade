@@ -1016,7 +1016,7 @@
   }
   .realization__item {
     &::before {
-      animation: moveDown 7s linear forwards;
+      animation: moveDown 1s linear forwards;
     }
     &:nth-child(1)::before {
       animation-delay: 0s;

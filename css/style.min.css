@@ -3662,8 +3662,8 @@ button.swiper-pagination-bullet {
   }
 }
 .realizationHome-active .realization__item::before, .realizationDesign-active .realization__item::before {
-  -webkit-animation: moveDown 7s linear forwards;
-          animation: moveDown 7s linear forwards;
+  -webkit-animation: moveDown 1s linear forwards;
+          animation: moveDown 1s linear forwards;
 }
 
 .realizationHome-active .realization__item:nth-child(1)::before, .realizationDesign-active .realization__item:nth-child(1)::before {
