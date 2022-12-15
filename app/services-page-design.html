@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Made services-interior design page</title>
+
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrap">
+          <a href="index.html" class="header__logo">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="about-page.html" class="header__nav-link">Про нас</a>
+              </li>
+              <li class="header__nav-item submenu">
+                <a
+                  href="services-page.html"
+                  class="header__nav-link submenu-link"
+                  >Послуги</a
+                >
+                <ul class="submenu__list">
+                  <li class="submenu__list-item">
+                    <a
+                      href="services-page-design.html"
+                      class="submenu__list-link"
+                      >Дизайн інтер'єру</a
+                    >
+                  </li>
+                  <li class="submenu__list-item">
+                    <a
+                      href="services-page-finishingWorks.html"
+                      class="submenu__list-link"
+                      >Оздоблювальні роботи</a
+                    >
+                  </li>
+                  <li class="submenu__list-item">
+                    <a
+                      href="services-page-supervision.html"
+                      class="submenu__list-link"
+                      >Авторський нагляд</a
+                    >
+                  </li>
+                  <li class="submenu__list-item">
+                    <a
+                      href="services-page-decoration.html"
+                      class="submenu__list-link"
+                      >Декорування інтер'єру</a
+                    >
+                  </li>
+                  <li class="submenu__list-item">
+                    <a
+                      href="services-page-coordination.html"
+                      class="submenu__list-link"
+                      >Узгодження перепланування</a
+                    >
+                  </li>
+                  <li class="submenu__list-item">
+                    <a href="planning-page.html" class="submenu__list-link"
+                      >Архітектурне проектування</a
+                    >
+                  </li>
+                  <li class="submenu__list-item">
+                    <a
+                      href="services-page-furniture.html"
+                      class="submenu__list-link"
+                      >Авторські меблі</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="header__nav-item">
+                <a href="portfolio-page.html" class="header__nav-link"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="header__nav-item">
+                <a href="blog-page.html" class="header__nav-link">Блог</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="contact-page.html" class="header__nav-link"
+                  >Контакти</a
+                >
+              </li>
+              <li class="header__nav-item header__nav-item--btn">
+                <button class="header__button btn popupProject__open">
+                  Замовити проект
+                </button>
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            class="header__button header__button--top btn popupProject__open"
+          >
+            Замовити проект
+          </button>
+          <div class="popup popupProject">
+            <div class="popup__body">
+              <div class="popup__content">
+                <div class="popup__content-top">
+                  <h2 class="popup__content-title">Замовити проект</h2>
+                  <a href="#" class="popup__content-close popupProject-close"
+                    ><img src="images/icons/close-popup.svg" alt=""
+                  /></a>
+                </div>
+
+                <p class="popup__content-text">
+                  Дозвольте нам познайомитися з вами та дізнатися про ваш
+                  проект. Ми підготуємо для вас індивідуальну пропозицію.
+                </p>
+                <form class="popup__content-form">
+                  <input
+                    type="text"
+                    class="popup__content-input form-input"
+                    placeholder="Як до Вас звертатися"
+                  />
+                  <input
+                    type="number"
+                    class="popup__content-input form-input"
+                    placeholder="Номер телефону"
+                  />
+                  <textarea
+                    class="popup__content-textarea form-textarea"
+                    placeholder="Ваше повідомлення"
+                  ></textarea>
+                  <button
+                    type="submit"
+                    class="popup__content-btn btnBlackWhite feedbackProject__open"
+                  >
+                    Надіслати повідомлення
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="burger">
+            menu
+            <button class="burger__btn">
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="servicesIntro design">
+        <div class="container-fluid">
+          <div class="servicesIntro-wrap">
+            <div class="servicesIntro__info">
+              <h2 class="servicesIntro__info-title title-decor--top">
+                Дизайн інтер'єру
+              </h2>
+              <p class="servicesIntro__info-text">
+                CUSTOM MADE – унікальний дизайн інтер'єру та індивідуальний
+                підхід. Колектив нашої студії складається з професіоналів, які
+                раді допомогти висловити неповторний дух та образ властивий лише
+                Вам.
+              </p>
+              <p class="servicesIntro__info-text">
+                Ви можете замовити дизайн-проект квартири або будинки з різним
+                ступенем опрацювання.
+              </p>
+              <button
+                class="servicesIntro__info-btn servicesIntro__info-btn--design btnBlackWhite popupDesign__open"
+              >
+                Замовити дизайн
+              </button>
+              <div class="popup popupDesign">
+                <div class="popup__body">
+                  <div class="popup__content">
+                    <div class="popup__content-top">
+                      <h2 class="popup__content-title">Замовити дизайн</h2>
+                      <a href="#" class="popup__content-close popupDesign-close"
+                        ><img src="images/icons/close-popup.svg" alt=""
+                      /></a>
+                    </div>
+                    <p class="popup__content-text">
+                      Напишіть, які роботи необхідно провести. Ми підготуємо для
+                      вас індивідуальну пропозицію.
+                    </p>
+                    <form class="popup__content-form">
+                      <input
+                        type="text"
+                        class="popup__content-input form-input"
+                        placeholder="Як до Вас звертатися"
+                      />
+                      <input
+                        type="number"
+                        class="popup__content-input form-input"
+                        placeholder="Номер телефону"
+                      />
+                      <textarea
+                        class="popup__content-textarea form-textarea"
+                        placeholder="Ваше повідомлення"
+                      ></textarea>
+                      <button
+                        type="submit"
+                        class="popup__content-btn btnBlackWhite feedbackDesign__open"
+                      >
+                        Надіслати повідомлення
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="servicesIntro__img">
+              <img src="images/services/design/servicesIntro-img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="options">
+        <div class="container-fluid">
+          <div class="options__block options__block--first">
+            <div class="options__block-img">
+              <img src="images/services/design/options-img-1.jpg" alt="" />
+            </div>
+            <div class="options__block-info">
+              <div class="options__block-info__top">
+                <div class="options__block-info__inner">
+                  <h4 class="options__block-info__title">
+                    Планувальне рішення
+                  </h4>
+                  <h6 class="options__block-info__subtitle">
+                    Основна концепція
+                  </h6>
+                </div>
+                <h4 class="options__block-info__price">600 грн/кв.м.</h4>
+              </div>
+              <ul class="options__block-info__list">
+                <li class="options__block-info__item">
+                  Враховуємо найсміливіші Ваші бажання;
+                </li>
+                <li class="options__block-info__item">
+                  Пропонуємо необмежену кількість варіантів;
+                </li>
+                <li class="options__block-info__item">
+                  Тільки узгоджені у майбутньому перепланування;
+                </li>
+                <li class="options__block-info__item">
+                  Чіткі креслення реалізації концепції;
+                </li>
+              </ul>
+              <div class="options__block-info__bottom">
+                <a
+                  href="#"
+                  class="options__block-info__button btn-more popupOptions__open"
+                  >Замовити</a
+                >
+                <a href="#" class="options__block-info__link"
+                  >Завантажити комплектацію</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="options__block">
+            <div class="options__block-img">
+              <img src="images/services/design/options-img-2.jpg" alt="" />
+            </div>
+            <div class="options__block-info">
+              <div class="options__block-info__top">
+                <div class="options__block-info__inner">
+                  <h4 class="options__block-info__title">Технічний проект</h4>
+                  <h6 class="options__block-info__subtitle">
+                    Концепція, технічна основа
+                  </h6>
+                </div>
+                <h4 class="options__block-info__price">1500 грн/кв.м.</h4>
+              </div>
+              <ul class="options__block-info__list">
+                <li class="options__block-info__item">
+                  Розробка планувального рішення;
+                </li>
+                <li class="options__block-info__item">
+                  Виконання всіх основних технічних креслень для будівельної
+                  бригади: світло, сантехніка, стелі, підлоги та багато іншого;
+                </li>
+                <li class="options__block-info__item">
+                  Економія Вашого часу, сил та нервів;
+                </li>
+              </ul>
+              <div class="options__block-info__bottom">
+                <a
+                  href="#"
+                  class="options__block-info__button btn-more popupOptions__open"
+                  >Замовити</a
+                >
+                <a href="#" class="options__block-info__link"
+                  >Завантажити комплектацію</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="options__block">
+            <div class="options__block-img">
+              <img src="images/services/design/options-img-3.jpg" alt="" />
+            </div>
+            <div class="options__block-info">
+              <div class="options__block-info__top">
+                <div class="options__block-info__inner">
+                  <h4 class="options__block-info__title">Повний проект</h4>
+                  <h6 class="options__block-info__subtitle">
+                    Проект із 3D візуалізаціями
+                  </h6>
+                </div>
+                <h4 class="options__block-info__price">6000 грн/кв.м.</h4>
+              </div>
+              <ul class="options__block-info__list">
+                <li class="options__block-info__item">
+                  Індивідуальний проект;
+                </li>
+                <li class="options__block-info__item">
+                  Реалістична 3D-візуалізація;
+                </li>
+                <li class="options__block-info__item">
+                  Підготовка повного комплекту будівельної документації;
+                </li>
+                <li class="options__block-info__item">
+                  5 виїздів спеціалістів для підбору матеріалів та обладнання;
+                </li>
+                <li class="options__block-info__item">
+                  Підбір меблів, сантехніки, електрики, оздоблювальних
+                  матеріалів;
+                </li>
+              </ul>
+              <div class="options__block-info__bottom">
+                <a
+                  href="#"
+                  class="options__block-info__button btn-more popupOptions__open"
+                  >Замовити</a
+                >
+                <a href="#" class="options__block-info__link"
+                  >Завантажити комплектацію</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="options__block">
+            <div class="options__block-img">
+              <img src="images/services/design/options-img-4.jpg" alt="" />
+            </div>
+            <div class="options__block-info">
+              <div class="options__block-info__top">
+                <div class="options__block-info__inner">
+                  <h4 class="options__block-info__title">Проект «Під ключ»</h4>
+                  <h6 class="options__block-info__subtitle">
+                    Включає абсолютно все
+                  </h6>
+                </div>
+                <h4 class="options__block-info__price">9000 грн/кв.м.</h4>
+              </div>
+              <ul class="options__block-info__list">
+                <li class="options__block-info__item">
+                  Індивідуальний проект;
+                </li>
+                <li class="options__block-info__item">
+                  Підготовка повного комплекту будівельної документації;
+                </li>
+                <li class="options__block-info__item">
+                  Реалістична 3D-візуалізація;
+                </li>
+                <li class="options__block-info__item">
+                  5 виїздів спеціалістів для підбору матеріалів та обладнання;
+                </li>
+                <li class="options__block-info__item">
+                  Підбір меблів, сантехніки, електрики, оздоблювальних
+                  матеріалів;
+                </li>
+                <li class="options__block-info__item">
+                  Авторський нагляд у процесі реалізації проекту;
+                </li>
+                <li class="options__block-info__item">
+                  Декорування закінченого ремонту;
+                </li>
+                <li class="options__block-info__item">
+                  Фотозйомка декорованого інтер'єру (за бажанням);
+                </li>
+              </ul>
+              <div class="options__block-info__bottom">
+                <a
+                  href="#"
+                  class="options__block-info__button btn-more popupOptions__open"
+                  >Замовити</a
+                >
+                <a href="#" class="options__block-info__link"
+                  >Завантажити комплектацію</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popup popupOptions">
+          <div class="popup__body">
+            <div class="popup__content">
+              <div class="popup__content-top">
+                <h2 class="popup__content-title">
+                  Замовити планувальне рішення
+                </h2>
+                <a href="#" class="popup__content-close popupOptions-close"
+                  ><img src="images/icons/close-popup.svg" alt=""
+                /></a>
+              </div>
+              <p class="popup__content-text">
+                Дозвольте нам познайомитися з вами та дізнатися про ваш проект.
+                Ми підготуємо для вас індивідуальну пропозицію.
+              </p>
+              <form class="popup__content-form">
+                <input
+                  type="text"
+                  class="popup__content-input form-input"
+                  placeholder="Як до Вас звертатися"
+                />
+                <input
+                  type="number"
+                  class="popup__content-input form-input"
+                  placeholder="Номер телефону"
+                />
+                <textarea
+                  class="popup__content-textarea form-textarea"
+                  placeholder="Ваше повідомлення"
+                ></textarea>
+                <button
+                  type="submit"
+                  class="popup__content-btn openFeedback btnBlackWhite"
+                >
+                  Надіслати повідомлення
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="composition">
+        <div class="container">
+          <h2 class="composition__title title-decor--top">
+            Склад дизайн проекту
+          </h2>
+          <div class="composition__wrap">
+            <div class="composition__box">
+              <h5 class="composition__box-title">
+                Робочі креслення та документація
+              </h5>
+              <ol class="composition__box-list">
+                <li class="composition__box-item">Пояснювальна записка.</li>
+                <li class="composition__box-item">
+                  Обмерный чертеж с привязкой инженерных коммуникаций.
+                </li>
+                <li class="composition__box-item">
+                  План демонтажу перегородок та інженерних комунікацій.
+                </li>
+                <li class="composition__box-item">
+                  План перегородок, що зводяться з маркуванням віконних. та
+                  дверних отворів.
+                </li>
+                <li class="composition__box-item">
+                  Маркувальний (розмірний) план після перепланування.
+                </li>
+                <li class="composition__box-item">
+                  План розміщення меблів та обладнання.
+                </li>
+                <li class="composition__box-item">
+                  План стелі із зазначенням типу використовуваного матеріалу,
+                  окремих вузлів та перерізів.
+                </li>
+                <li class="composition__box-item">
+                  Розміщення освітлювальних приладів, прив'язка до випусків
+                  освітлення.
+                </li>
+                <li class="composition__box-item">
+                  План вимикачів із зазначенням включення груп світильників.
+                </li>
+                <li class="composition__box-item">
+                  Схема розміщення електричних розеток та електровиводів із
+                  прив'язкою геометричних розмірів.
+                </li>
+                <li class="composition__box-item">
+                  План підлоги із зазначенням: позначки рівня підлоги, типу
+                  покриття для підлоги, малюнка і розмірів.
+                </li>
+                <li class="composition__box-item">
+                  Схема розміщення електричного підігріву підлоги із прив'язкою
+                  регуляторів.
+                </li>
+                <li class="composition__box-item">
+                  Схема розміщення санітарно-технічного обладнання із прив'язкою
+                  випусків.
+                </li>
+                <li class="composition__box-item">
+                  Розгортка стін з розкладкою плитки із зазначенням розмірів,
+                  артикулу та площі обраного матеріалу.
+                </li>
+                <li class="composition__box-item">
+                  Розгортання стін з декоративними елементами.
+                </li>
+                <li class="composition__box-item">
+                  Креслення замовних виробів (виконується у разі потреби).
+                </li>
+                <li class="composition__box-item">Відомість обробки.</li>
+                <li class="composition__box-item">
+                  Перспективи приміщень, виконані у програмі 3D Max.
+                </li>
+              </ol>
+            </div>
+
+            <div class="composition__box">
+              <h5 class="composition__box-title">Комплектація</h5>
+              <ol class="composition__box-list">
+                <li class="composition__box-item">
+                  Специфікація дверей з розмірами дверних отворів та
+                  фірми-виробника.
+                </li>
+                <li class="composition__box-item">
+                  Специфікація електромонтажної арматури із зазначенням типу
+                  виробу, фірми-виробника та інших спеціальних вимог.
+                </li>
+                <li class="composition__box-item">
+                  Специфікація освітлювального обладнання з розмірами та
+                  фірмами-виробниками.
+                </li>
+                <li class="composition__box-item">
+                  Специфікація сантехнічного обладнання із технічними картами.
+                </li>
+                <li class="composition__box-item">
+                  Специфікація використовуваних меблів із зазначенням
+                  виробників.
+                </li>
+                <li class="composition__box-item">
+                  Відвідування салонів та магазинів за потреби.
+                </li>
+              </ol>
+
+              <div class="composition__box-order">
+                <form class="composition__box-order__form">
+                  <h2 class="composition__box-order__title">
+                    Потрібна консультація?
+                  </h2>
+                  <input
+                    type="text"
+                    class="composition__box-order__input form-input"
+                    placeholder="Як до вас звертатись"
+                  />
+                  <input
+                    type="number"
+                    class="composition__box-order__input form-input"
+                    placeholder="Номер телефону"
+                  />
+                  <button
+                    type="submit"
+                    class="composition__box-order__btn btn-more composition__open"
+                  >
+                    Замовити дзвінок
+                  </button>
+                </form>
+
+                <div class="consultation">
+                  <div class="consultation__body">
+                    <div class="consultation__content">
+                      <h2 class="consultation__content-title">
+                        Ви замовили зворотній дзвінок!
+                      </h2>
+                      <p class="consultation__content-text">
+                        Дякую за залишену заявку.
+                      </p>
+                      <p class="consultation__content-text">
+                        Ми зв'яжемося з Вами найближчим часом, щоб
+                        проконсультувати з питань, що цікавлять.
+                      </p>
+                      <a
+                        href="#"
+                        class="consultation__content-close btn consultation__close"
+                        >Закрити вікно</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container-fluid">
+          <div class="portfolio__tabs">
+            <div class="container">
+              <div class="portfolio__top">
+                <h2 class="portfolio__top-title title-decor--top">
+                  Портфоліо найкращих робіт
+                </h2>
+                <div class="portfolio__top-wrap">
+                  <a
+                    data-path="step1"
+                    class="portfolio__top-tab portfolio__top-tab--active"
+                    href="#"
+                    >Квартири
+                  </a>
+                  <a data-path="step2" class="portfolio__top-tab" href="#">
+                    Котеджі
+                  </a>
+                  <a data-path="step3" class="portfolio__top-tab" href="#">
+                    Комерційна нерухомість
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio__content">
+              <div
+                class="portfolio__content-tab portfolio__content-tab--active"
+                data-target="step1"
+              >
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-1.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-2.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-3.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-4.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-5.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-6.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-7.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-8.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-9.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-10.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-11.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-12.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio__content-tab" data-target="step2">
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-1.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-2.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-3.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-4.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-5.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-6.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-7.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-8.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-9.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-10.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-11.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-12.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio__content-tab" data-target="step3">
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-1.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-2.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-3.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-4.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-5.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-6.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-7.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-8.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-9.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-10.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-11.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+                <div class="card__picture portfolio__content-tab__item">
+                  <img
+                    class="card__picture-img portfolio__content-tab__item-img"
+                    src="images/portfolio-img-12.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="card__picture-info portfolio__content-tab__item-info"
+                  >
+                    <h4
+                      class="card__picture-title portfolio__content-tab__item-title"
+                    >
+                      ЖК Тріумф Парк
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="portfolio__bottom">
+              <div class="portfolio__bottom-text">
+                Наша студія – інтер'єри за індивідуальною міркою
+              </div>
+              <a href="portfolio-page.html" class="portfolio__bottom-btn btn"
+                >Дивитись усі роботи</a
+              >
+            </div>
+            <div class="portfolio__contract">
+              <div class="portfolio__contract-wrap">
+                <h2 class="portfolio__contract-title">Зразок договору</h2>
+                <p class="portfolio__contract-text">
+                  Ознайомтеся зі зразком договору на проведення ремонтних та
+                  оздоблювальних робіт у студії Custom Made
+                </p>
+              </div>
+              <button class="portfolio__contract-btn btn-more">
+                Завантажити договір
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="realization realization--design">
+        <div class="container-fluid">
+          <div class="realization__wrap realizationDesign">
+            <div class="realization__pictures">
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-1.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-2.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-3.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-4.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-5.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-6.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-7.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-8.jpg"
+                alt=""
+              />
+              <img
+                class="realization__pictures-img"
+                src="images/realization-img-9.jpg"
+                alt=""
+              />
+            </div>
+            <div class="realization__box">
+              <h2 class="realization__title title-decor--bottom">
+                Як ми працюємо
+              </h2>
+              <ul class="realization__list">
+                <li class="realization__item">
+                  <h4 class="realization__item-title">Отримуємо вашу заявку</h4>
+                  <p class="realization__item-text">
+                    Зв'яжіться з нами або надішліть повідомлення на сайті.
+                  </p>
+                </li>
+                <li class="realization__item">
+                  <h4 class="realization__item-title">Знайомимося</h4>
+                  <p class="realization__item-text">
+                    На першій зустрічі ми обговоримо всі подробиці вашого
+                    завдання. Подивимося портфоліо нашої компанії, обговоримо
+                    різноманітні наші проекти та укладемо договір.
+                  </p>
+                </li>
+                <li class="realization__item">
+                  <h4 class="realization__item-title">Виїжджаємо на об'єкт</h4>
+                  <p class="realization__item-text">
+                    Зустрічаємось на об'єкті, щоб провести необхідні виміри,
+                    фотофіксацію та заповнити докладне техзавдання. Директор з
+                    будівництва оцінює стан об'єкта та обсяг робіт.
+                  </p>
+                </li>
+                <li class="realization__item">
+                  <h4 class="realization__item-title">
+                    Обговорюємо та узгоджуємо загальний бюджет проекту
+                  </h4>
+                  <p class="realization__item-text">
+                    Витрати на "наповнення" інтер'єру, оздоблювальні матеріали,
+                    меблі та обладнання. Враховуємо також приблизну вартість
+                    ремонтних робіт на об'єкті.
+                  </p>
+                </li>
+                <li class="realization__item">
+                  <h4 class="realization__item-title">
+                    Визначаємо планувальне рішення
+                  </h4>
+                  <p class="realization__item-text">
+                    На цьому етапі ми пропонуємо кілька варіантів зонування,
+                    розміщення меблів та обладнання. При необхідності виконаємо
+                    перепланування і приступимо до її узгодження.
+                  </p>
+                </li>
+                <li class="realization__item">
+                  <h4 class="realization__item-title">
+                    Розробляємо стильову концепцію
+                  </h4>
+                  <p class="realization__item-text">
+                    На основі ваших уподобань, з урахуванням модних тенденцій та
+                    напрямків, визначається яким буде стиль майбутнього
+                    інтер'єру. Ми створюємо 3D моделі кожного приміщення, а ви
+                    отримуєте уявлення про те, як виглядатиме ваш будинок після
+                    ремонту.
+                  </p>
+                </li>
+                <li class="realization__item">
+                  <h4 class="realization__item-title">
+                    Готуємо робочу документацію
+                  </h4>
+                  <p class="realization__item-text">
+                    На наступному етапі ми готуємо всі необхідні робочі
+                    креслення. Ви отримуєте підсумковий будівельний кошторис, на
+                    підставі якого вестимуться будівельні роботи.
+                  </p>
+                </li>
+                <li class="realization__item">
+                  <h4 class="realization__item-title">Комплектація об'єкту</h4>
+                  <p class="realization__item-text">
+                    На завершальному етапі комплектації ми складаємо
+                    специфікації меблів, світильників та предметів інтер'єру та
+                    всього того, що використано в інтер'єрі відповідно до
+                    узгодженого раніше бюджету об'єкта.
+                  </p>
+                </li>
+              </ul>
+              <button class="realization__btn btnBlackWhite popupProject__open">
+                Замовити дизайн
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="fengShui">
+        <div class="container-fluid">
+          <div class="fengShui__wrap">
+            <div class="fengShui__info">
+              <h2 class="fengShui__info-title title-decor--top">
+                Принципи феншуй у нашій роботі
+              </h2>
+              <p class="fengShui__info-text">
+                CUSTOM MADE практикує феншуй для проектування сучасних
+                інтер'єрів.
+              </p>
+              <p class="fengShui__info-text">
+                Завдяки застосуванню основних принципів феншуй, ми допоможемо
+                Вам визначити вдале місце для будівництва будинку, вирішити
+                оптимальний план розбиття ділянки, планувати інтер'єр квартири
+                та будинку, визначити призначення кімнат, вибрати планування
+                парку, вирішити проблеми містобудування.
+              </p>
+              <p class="fengShui__info-text">
+                Дизайнери нашої компанії, за Вашим бажанням, можуть виконати
+                дизайн інтер'єру з дотриманням усіх правил феншуй. Докладніше
+                про можливості поєднання принципів феншуй квартири та
+                функціональності майбутнього інтер'єру ви можете дізнатися у нас
+                у студії.
+              </p>
+            </div>
+            <div class="fengShui__img">
+              <img src="images/services/design/fengShui-img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="yourProject yourProject--design">
+        <div class="container-fluid">
+          <div class="yourProject__box">
+            <div class="yourProject__box-img">
+              <img src="images/services/design/yourProject-img.jpg" alt="" />
+            </div>
+
+            <div class="yourProject__box-content">
+              <h2 class="yourProject__box-content__title">
+                Розкажіть нам про свій проект
+              </h2>
+              <p class="yourProject__box-content__text">
+                Дозвольте нам познайомитися з вами та дізнатися про ваш проект.
+                Ми підготуємо для вас індивідуальну пропозицію.
+              </p>
+
+              <form class="yourProject__box-content__form">
+                <input
+                  type="text"
+                  class="yourProject__box-content__input form-input"
+                  placeholder="Як до вас звертатись"
+                />
+                <input
+                  type="number"
+                  class="yourProject__box-content__input form-input"
+                  placeholder="Номер телефону"
+                />
+                <textarea
+                  class="yourProject__box-content__textarea form-textarea"
+                  placeholder="Ваше повідомлення"
+                ></textarea>
+                <button
+                  type="submit"
+                  class="yourProject__box-content__btn btnBlackWhite feedbackYourProject__open"
+                >
+                  Надіслати повідомлення
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__info">
+          <div class="footer__info-item">
+            <a
+              href="index.html"
+              class="footer__info-item__link footer__info-item__link--logo"
+            >
+              <img src="images/logo-footer.png" alt="" />
+            </a>
+            <div class="footer__info-item__link footer__info-item__link--copy">
+              <img src="images/icons/copyright-icon.svg" alt="" />
+              2010-2022 Студія інтер'єру <br />
+              Custom Made, усі права захищені
+            </div>
+          </div>
+          <div class="footer__info-item">
+            <a href="about-page.html" class="footer__info-item__link"
+              >Про нас</a
+            >
+            <a href="portfolio-page.html" class="footer__info-item__link"
+              >Портфоліо</a
+            >
+            <a href="#" class="footer__info-item__link">Ціни</a>
+            <a href="services-page.html" class="footer__info-item__link"
+              >Послуги</a
+            >
+            <a href="blog-page.html" class="footer__info-item__link">Блог</a>
+            <a href="blog-page.html" class="footer__info-item__link"
+              >Контакти</a
+            >
+          </div>
+          <div class="footer__info-item">
+            <a href="services-page-design.html" class="footer__info-item__link"
+              >Дизайн інтер'єру</a
+            >
+            <a
+              href="services-page-finishingWorks.html"
+              class="footer__info-item__link"
+              >Оздоблювальні роботи</a
+            >
+            <a
+              href="services-page-supervision.html"
+              class="footer__info-item__link"
+              >Авторський нагляд</a
+            >
+            <a
+              href="services-page-decoration.html"
+              class="footer__info-item__link"
+              >Декорування інтер'єру</a
+            >
+            <a
+              href="services-page-coordination.html"
+              class="footer__info-item__link"
+              >Узгодження перепланування</a
+            >
+            <a
+              href="services-page-furniture.html"
+              class="footer__info-item__link"
+              >Авторські меблі</a
+            >
+            <a href="planning-page.html" class="footer__info-item__link"
+              >Архітектурне проектування</a
+            >
+          </div>
+          <div class="footer__info-item">
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#mail-icon"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc"
+                >email.mail@gmail.com</a
+              >
+            </div>
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#instagram-icon"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc">designe.designer</a>
+            </div>
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#twitter-icon"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc">designe.designer</a>
+            </div>
+          </div>
+          <div class="footer__info-item">
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#telegram-icon"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc"
+                >email.mail@gmail.com</a
+              >
+            </div>
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#pinterest (1)"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc">designe.designer</a>
+            </div>
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#facebook (3)"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc">designe.designer</a>
+            </div>
+          </div>
+          <div class="footer__info-item">
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#location-dot-icon"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc"
+                >м. Київ, <br />
+                вул. Зоологічна, 10</a
+              >
+            </div>
+            <div class="footer__info-item__inner">
+              <svg class="icon">
+                <use xlink:href="#telephone-icon"></use>
+              </svg>
+              <a href="#" class="footer__info-item__soc"
+                >+38(8050) 463 8508 <br />
+                +3(8050) 463 8508</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="feedback">
+      <div class="feedback__body">
+        <div class="feedback__content">
+          <h2 class="feedback__content-title">
+            Ваше повідомлення відправлено!
+          </h2>
+          <p class="feedback__content-text">Дякую за залишену заявку.</p>
+          <p class="feedback__content-text">
+            Ми зв'яжемося з Вами найближчим часом, щоб проконсультувати з
+            питань, що цікавлять.
+          </p>
+          <a
+            href="#"
+            class="feedback__content-close btnBlackWhite feedback__close"
+            >Закрити вікно</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+    <svg width="0" height="0" class="hidden">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 384 512"
+        id="location-dot-icon"
+      >
+        <path
+          d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        id="mail-icon"
+      >
+        <path d="M16,14.81,28.78,6.6A3,3,0,0,0,27,6H5a3,3,0,0,0-1.78.6Z"></path>
+        <path
+          d="M16.54,16.84h0l-.17.08-.08,0A1,1,0,0,1,16,17h0a1,1,0,0,1-.25,0l-.08,0-.17-.08h0L2.1,8.26A3,3,0,0,0,2,9V23a3,3,0,0,0,3,3H27a3,3,0,0,0,3-3V9a3,3,0,0,0-.1-.74Z"
+        ></path>
+      </symbol>
+
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 496 512"
+        id="pinterest (1)"
+      >
+        <path
+          d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        enable-background="new 0 0 24 24"
+        viewBox="0 0 24 24"
+        id="telegram-icon"
+      >
+        <path
+          d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 64 64"
+        id="telephone-icon"
+      >
+        <defs>
+          <clipPath id="a">
+            <rect width="64" height="64"></rect>
+          </clipPath>
+        </defs>
+        <g clip-path="url(#a)">
+          <path
+            d=" M 61.859 50.552 L 61.859 50.552 C 62.166 51.474 61.605 53.032 60.607 54.03 L 54.277 60.36 C 52.78 61.858 49.968 62.435 48.002 61.648 L 45.077 60.479 C 28.694 53.925 10.072 35.304 3.519 18.92 L 2.349 15.996 C 1.563 14.03 2.14 11.218 3.637 9.721 L 9.967 3.391 C 10.965 2.392 12.524 1.831 13.445 2.139 L 13.445 2.139 C 18.513 3.828 23.999 9.313 25.688 14.381 L 25.688 14.381 C 25.995 15.302 25.434 16.861 24.436 17.859 L 20.819 21.476 C 19.82 22.474 19.523 24.31 20.154 25.572 L 21.097 27.459 C 23.938 33.141 30.857 40.06 36.539 42.901 L 38.425 43.844 C 39.688 44.475 41.523 44.177 42.521 43.179 L 46.139 39.562 C 47.137 38.564 48.695 38.003 49.617 38.31 L 49.617 38.31 C 54.684 39.999 60.17 45.485 61.859 50.552 Z "
+          ></path>
+          <path
+            d=" M 29.545 11.614 L 29.779 14.179 C 29.843 14.882 30.324 15.378 30.854 15.285 C 30.854 15.285 31.835 15.212 32.823 15.239 C 37.01 15.338 40.998 17.066 43.955 20.041 C 46.93 22.998 48.657 26.986 48.765 31.181 C 48.802 32.539 48.651 33.882 48.637 33.935 C 48.465 34.62 48.883 35.304 49.571 35.463 L 52.058 36.037 C 52.746 36.196 53.442 35.768 53.61 35.083 C 53.727 34.612 53.923 32.837 53.875 31.046 C 53.739 25.539 51.469 20.303 47.572 16.424 C 43.692 12.526 38.457 10.256 32.95 10.121 C 31.764 10.089 30.587 10.164 30.587 10.164 C 29.948 10.261 29.482 10.911 29.545 11.614 Z "
+          ></path>
+          <path
+            fill-rule="evenodd"
+            d=" M 28.806 3.482 L 29.038 6.028 C 29.102 6.731 29.671 7.235 30.309 7.152 C 30.309 7.152 31.476 7.09 32.642 7.118 C 39.017 7.29 45.067 9.904 49.552 14.425 L 49.57 14.443 L 49.57 14.443 C 49.561 14.434 49.561 14.434 49.552 14.425 C 49.561 14.434 49.561 14.434 49.561 14.434 L 49.561 14.434 L 49.57 14.443 C 54.092 18.928 56.714 24.987 56.877 31.353 C 56.923 33.257 56.729 35.162 56.59 35.77 C 56.433 36.459 56.864 37.146 57.552 37.305 L 60.047 37.881 C 60.735 38.039 61.42 37.609 61.577 36.921 C 61.811 35.897 62.047 33.563 61.995 31.227 C 61.796 23.54 58.64 16.225 53.178 10.817 C 53.178 10.817 53.178 10.817 53.169 10.808 L 53.169 10.808 L 53.178 10.817 C 47.771 5.355 40.455 2.199 32.778 2.009 C 31.408 1.976 30.042 2.043 29.96 2.053 C 29.259 2.139 28.742 2.779 28.806 3.482 Z  M 53.169 10.808 C 53.178 10.817 53.178 10.817 53.178 10.817 L 53.178 10.817 L 53.169 10.808 L 53.169 10.808 Z "
+          ></path>
+        </g>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 144.083 144"
+        id="twitter-icon"
+      >
+        <path
+          d="M72.04 14.165c-31.94 0-57.833 25.894-57.833 57.834 0 31.939 25.893 57.836 57.833 57.836 31.941 0 57.835-25.896 57.835-57.836 0-31.94-25.894-57.834-57.835-57.834zm28.232 43.466s1.375 6.815-3.559 18.787c-4.936 11.972-17.15 23.297-33.974 24.349-16.825 1.051-25.887-6.391-25.887-6.391 12.62.971 18.201-4.206 21.194-5.905-11.729-1.537-13.428-10.354-13.428-10.354 1.132.486 4.61.324 6.471-.161-11.485-2.831-11.728-14.398-11.728-14.398s4.286 2.184 6.713 1.779c-11.083-8.413-4.61-19.414-4.61-19.414C56.105 61.94 71.635 61.05 71.635 61.05l.07.105a14.51 14.51 0 0 1-.434-3.523c0-8.008 6.492-14.499 14.5-14.499 4.23 0 8.037 1.813 10.688 4.703l.092-.052c5.176-.324 8.979-3.074 8.979-3.074-1.576 4.604-4.924 6.749-6.322 7.471l.051.128c1.809-.438 6.662-1.625 7.971-2.017-2.833 5.176-6.958 7.339-6.958 7.339z"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        id="facebook (3)"
+      >
+        <path
+          d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 256 256"
+        id="instagram-icon"
+      >
+        <rect width="256" height="256" fill="none"></rect>
+        <circle cx="128" cy="128" r="32"></circle>
+        <path
+          d="M172,28H84A56.06353,56.06353,0,0,0,28,84v88a56.06353,56.06353,0,0,0,56,56h88a56.06353,56.06353,0,0,0,56-56V84A56.06353,56.06353,0,0,0,172,28ZM128,176a48,48,0,1,1,48-48A48.05436,48.05436,0,0,1,128,176Zm52-88a12,12,0,1,1,12-12A12,12,0,0,1,180,88Z"
+        ></path>
+      </symbol>
+    </svg>
+
+    <svg width="0" height="0" class="hidden">
+      <symbol
+        id="ukraine-hryvnia-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 96.08 122.88"
+      >
+        <title>ukraine-hryvnia</title>
+        <path
+          d="M67.41,55.44l-14.8,12H96.08V80.64H39.7c-3.76,2.84-6,6.3-6,10.71,0,7.56,6,11.66,16.71,11.66,9.13,0,17-4.4,23.3-13.53L91,101.14c-9.43,14.5-26.46,21.74-42.53,21.74-21.11,0-36.84-10.07-36.84-26.77a24.07,24.07,0,0,1,5.66-15.44H0V67.44H27.71l15.13-12H0V42.24H56.07c4.1-3.77,6-7.24,6-11.34,0-6.6-6-11.33-15.13-11.33-8.83,0-16.37,5-21.74,13.53L8.5,21.74C17.64,7.24,32.44,0,48.51,0c21.73,0,35.9,11.34,35.9,26.77a26,26,0,0,1-5,15.44h16.7V55.44Z"
+        ></path>
+      </symbol>
+    </svg>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
